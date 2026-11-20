@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Connect Claude, ChatGPT or any MCP-compatible AI to your Odoo, with a simple setup page and per-app access control.",
   "scripts": {
-    "test": "node --test tests/*.test.js",
+    "test": "node --test",
     "start": "node bin/odoo-connect-mcp.js",
     "setup": "node bin/odoo-connect-mcp.js setup"
   },
